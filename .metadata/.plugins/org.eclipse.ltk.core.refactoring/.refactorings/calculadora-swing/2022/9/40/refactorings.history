@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;sec.projeto&apos; to &apos;sec.projeto.visao&apos;&#x0D;&#x0A;- Original project: &apos;calculadora-swing&apos;&#x0D;&#x0A;- Original element: &apos;calculadora-swing/src/sec.projeto&apos;&#x0D;&#x0A;- Renamed element: &apos;calculadora-swing/src/sec.projeto.visao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;sec.projeto&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;sec.projeto" name="sec.projeto.visao" qualified="false" references="true" stamp="1664409244824" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+		
+		double[] notasAlunoA = new double[3]; // declarando um array de 3 dados
+		System.out.println(Arrays.toString(notasAlunoA)); // imprimindo o array usando o ToString para mostrar
+		
+		notasAlunoA[0] = 7.9; // declarando valores
+		notasAlunoA[1] = 8; // declarando valores
+		notasAlunoA[2] = 6.7; // declarando valores
+		
+		System.out.println(Arrays.toString(notasAlunoA)); // imprimindo o array usando o ToString para mostrar
+		
+		double total = 0; // inicializando a variavel
+		for(int i = 0; i < 3; i++) { // usando o laço for para percorrer todo o array
+			total += notasAlunoA[i]; // somatória de todas as notas
+		}
+		
+		System.out.println(total / 3); // imprimindo a média das notas
+			
+	}
+}
